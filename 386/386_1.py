@@ -13,7 +13,7 @@ class Solution:
       for i in range(10):
         dfs(cur + 1)
 
-      for i in range(1, 10):
-        dfs(i)
-      
-      return res
+    for i in range(1, 10):
+      dfs(i)
+    
+    return res
